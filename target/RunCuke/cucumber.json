@@ -1,0 +1,314 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10987137700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should able to order T-Shirt successfully",
+        "description": "",
+        "id": "ordering-t-shirt;user-should-able-to-order-t-shirt-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 871121900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 179077600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6095477000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on T-Shirt Tab",
+            "match": {
+              "location": "MyStepdefs.iClickOnTShirtTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2598330800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Select T-Shirt",
+            "match": {
+              "location": "MyStepdefs.iSelectTShirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197755000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse hover on to t-shirt image",
+            "match": {
+              "location": "MyStepdefs.iMouseHoverOnToTShirtImage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138027700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on Add to cart button",
+            "match": {
+              "location": "MyStepdefs.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5062656900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to see T-Shirt added to cart sucessfully",
+            "match": {
+              "location": "MyStepdefs.iShouldBeAbleToSeeTShirtAddedToCartSucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ordering T-Shirt",
+    "description": "As a user I want order T shirt from automation practice website",
+    "id": "ordering-t-shirt",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/test/lameertha/resources/featurefile/order.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9054628000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should able To Update Personal Information (FirstName) page successfully",
+        "description": "",
+        "id": "update-personal-information-functionality;user-should-able-to-update-personal-information-(firstname)-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 2233456000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17978700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on home Page",
+            "match": {
+              "location": "MyStepdefs3.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4934106700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Sign In Button",
+            "match": {
+              "location": "MyStepdefs3.iClickOnSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 696440000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the EmailAddress \"lameertha11@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lameertha11@gmail.com",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs3.iEnterTheEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294690200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the Password \"Lamee1988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lamee1988",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefs3.iEnterThePassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12348342100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I SingIn Button2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepdefs3.iSingInButton(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12118040800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on the Personal Information Button",
+            "match": {
+              "location": "MyStepdefs3.clickOnThePersonalInformationButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224981200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Updating My First Name \"LAMEE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LAMEE",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepdefs3.updatingMyFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239394100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the old password \"Lamee1988\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lamee1988",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepdefs3.enterTheOldPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11541576700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click the Save Button",
+            "match": {
+              "location": "MyStepdefs3.clickTheSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71752000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should able to see the Update Personal Information (First Name) page successfully \"LAMEE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LAMEE",
+                  "offset": 85
+                }
+              ],
+              "location": "MyStepdefs3.iShouldAbleToSeeTheUpdatePersonalInformationFirstNamePageSuccessfully(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Update Personal Information Functionality",
+    "description": "As a user I want to Update Personal Information (First Name) in My Account",
+    "id": "update-personal-information-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/test/lameertha/resources/featurefile/updateinfo.feature"
+  }
+]

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.test.lameertha.cucumber.CukeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.262 s <<< FAILURE! - in com.test.lameertha.cucumber.CukeTest
+com.test.lameertha.cucumber.CukeTest  Time elapsed: 0.864 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.test.lameertha.cucumber.CukeTest.setup(CukeTest.java:23)
+
